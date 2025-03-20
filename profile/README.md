@@ -1,48 +1,47 @@
-<!--
-SPDX-FileCopyrightText: Copyright (c) 2024-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
-SPDX-License-Identifier: Apache-2.0
--->
+# Nong Hoang Vu - Community
 
-# NVIDIA Dynamo
+Welcome to the **Nong Hoang Vu - Community**, a collaborative space dedicated to sharing knowledge and fostering growth in software development, with a focus on Java, C#, and related technologies.
 
-[Dynamo](https://github.com/ai-dynamo/dynamo) is a new modular inference framework designed for serving large language models (LLMs) in multi-node distributed environments. It enables seamless scaling of inference workloads across GPU nodes and the dynamic allocation of GPU workers to address traffic bottlenecks at various stages of the model pipeline.
+## Purpose
 
-This GitHub organization hosts repositories for Dynamo's core components and integrations, including:
+The Nong Hoang Vu - Community was created to bridge the gap between learning and applying programming skills in real-world scenarios. Our goal is to:
+- Provide accessible, high-quality resources for developers at all levels.
+- Encourage collaboration and knowledge-sharing among enthusiasts and professionals.
+- Build a supportive environment where members can grow their technical expertise and stay updated with industry trends.
 
-**[Core Framework](https://github.com/ai-dynamo/dynamo/tree/main/lib/runtime)**
+Whether you're writing your first "Hello World" or optimizing complex systems, we aim to be your go-to hub for inspiration, learning, and problem-solving.
 
-- Distributed inference runtime with Rust-based orchestration
-- Python bindings for workflow customization
-- Multi-GPU/multi-node serving capabilities
+## Who Can Join?
 
-**[LLM Optimized Components](https://github.com/ai-dynamo/dynamo/tree/main/lib/llm)**
+This community is open to anyone with an interest in programming and technology, including:
+- **Beginners**: Individuals new to coding, eager to learn Java, C#, or foundational concepts.
+- **Intermediate Developers**: Those looking to deepen their skills, explore best practices, or tackle real-world projects.
+- **Experienced Professionals**: Seasoned developers willing to share expertise, mentor others, or collaborate on advanced topics.
+- **Tech Enthusiasts**: Anyone curious about software development, regardless of experience level.
 
-- Disaggregated Serving Engine: Decoupling of prefill and decode to optimize for throughput at latency SLOs
-- Intelligent Routing System: Prefix-based and load-aware request distribution
-- KV Cache Management: Distributed KV Cache management
+No matter your background, if you’re passionate about coding or want to contribute to a growing knowledge base, you’re welcome here!
 
-**[NVIDIA Optimized Transfer Library (NIXL)](https://github.com/ai-dynamo/nixl)**
+## What We Offer
 
-- Abstracts memory of heterogeneous devices, i.e., CPU, GPU, storage, and enables most efficient and low-latency communication among them
-- Integrates with distributed inference servers such as Dynamo. This library will target distributed inference communication patterns to effectively transfer the KV cache in disaggregated LLM serving platforms.
+- **Tutorials & Guides**: Step-by-step resources on Java, C#, and more.
+- **Code Examples**: Practical snippets to kickstart your projects.
+- **Best Practices**: Tips to write clean, efficient, and maintainable code.
+- **Discussion Space**: A platform to ask questions, share ideas, and connect with others.
 
-## Getting Started
+## How to Get Involved
 
-To learn more about NVIDIA Dynamo Inference Serving Platform, please refer to the [Dynamo developer page](https://developer.nvidia.com/dynamo) and read our [Quickstart Guide](https://github.com/ai-dynamo/dynamo/blob/main/README.md#quick-start) for container setup and basic workflows.
+1. **Explore Resources**: Check out our [Docs](docs/) for tutorials and guides.
+2. **Contribute**: Share your knowledge by following our [Contribution Guidelines](CONTRIBUTING.md).
+3. **Join the Conversation**: Participate in [GitHub Discussions](https://github.com/NongHoangVu-Community/NongHoangVu-Community/discussions) or connect with us on [Discord](#) (link coming soon!).
 
-## Documentation
+## Our Vision
 
-User documentation on Dynamo features, APIs, and architecture is located in the [Dynamo documents folder on GitHub](https://github.com/ai-dynamo/dynamo/tree/main/docs).
-
-## Contribution & Support
-
-- Follow [Contribution Guidelines](../CONTRIBUTING.md)
-- Report issues via GitHub Discussions
-- Enterprise support available through NVIDIA AI Enterprise
+We aspire to grow into a vibrant community where developers from around the world can learn, teach, and innovate together. By focusing on Java, C#, and related technologies, we hope to empower individuals to build impactful software and advance their careers.
 
 ## License
 
-Apache 2.0 licensed with third-party attributions documented in each repository.
+All content is shared under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), ensuring it remains free and accessible while giving credit to contributors.
 
-> [!NOTE]
-> This project is currently in alpha stage - APIs and components may evolve based on community feedback
+---
+
+*Started on March 20, 2025, with a commitment to continuous growth and collaboration.*
